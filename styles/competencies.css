@@ -1,0 +1,132 @@
+.competencies__title {
+    margin-bottom: 80px;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -1.65px;
+}
+
+.competencies__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    justify-content: space-between;
+}
+
+.competencies__box {
+    width: calc(50% - 23.5px);
+}
+
+.competencies__box::before {
+    content: '';
+    margin-bottom: 15px;
+    display: block;
+    width: 45px;
+    height: 44px;
+}
+
+.competencies__box_html::before {
+    background-image: url(../resources/before-html.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.competencies__box_js::before {
+    background-image: url(../resources/before-js.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.competencies__box_framework::before {
+    background-image: url(../resources/before-framework.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.competencies__box_mobile::before {
+    background-image: url(../resources/before-mobile_developer.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.competencies__box-title {
+    margin-bottom: 15px;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -1.05px;
+    color: #1BFF07;
+}
+
+.competencies__box-title_margin {
+    margin-bottom: 55px;
+}
+
+.competencies__box-text {
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.66px;
+}
+
+@media (max-width: 1199px) {
+    .competencies__title {
+        margin-bottom: 60px;
+        font-size: 45px;
+        line-height: 59px;
+        letter-spacing: -1.35px;
+    }
+
+    .competencies__wrapper {
+        row-gap: 36px;
+    }
+
+    .competencies__box {
+        width: calc(50% - 18.5px);
+    }
+
+    .competencies__box::before {
+        margin-bottom: 12px;
+        width: 36px;
+        height: 36px;
+    }
+
+    .competencies__box-title {
+        margin-bottom: 12px;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: -0.84px;
+    }
+
+    .competencies__box-text {
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: -0.54px;
+    }
+}
+
+@media (max-width: 767px) {
+    .competencies__title {
+        font-size: 30px;
+        line-height: 39px;
+        letter-spacing: -0.9px;
+    }
+
+    .competencies__wrapper {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .competencies__box {
+        width: 100%;
+    }
+
+    .competencies__box::before {
+        margin-bottom: 10px;
+    }
+
+    .competencies__box-title {
+        margin-bottom: 15px;
+    }
+}

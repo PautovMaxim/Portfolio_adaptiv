@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+
+        <link rel="stylesheet" href="./styles/reset.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Manrope&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="./styles/style.css" />
+    </head>
+    <body>
+        <main>
+            <section class="projects">
+                <div class="container">
+                    <h2 class="projects__title">Самые свежие проекты</h2>
+
+                    <div class="projects__wrapper">
+                        <div class="projects__box">
+                            <a class="projects__box-link" href="#">
+                                <picture>
+                                    <source
+                                        srcset="./resources/project1_tablet.png"
+                                        media="(max-width: 1199px)"
+                                    />
+                                    <source
+                                        srcset="./resources/project1_mobile.png"
+                                        media="(max-width: 767px)"
+                                    />
+                                    <img
+                                        class="projects__box-image"
+                                        src="./resources/project1_desktop.png"
+                                        alt="#"
+                                    />
+                                </picture>
+                                <p class="projects__box-title">Метрика</p>
+                                <p class="projects__box-text">
+                                    верстка, настройка
+                                </p>
+                                <p class="projects__box-description">
+                                    дизайн интерьера
+                                </p>
+                            </a>
+                        </div>
+
+                        <div class="projects__box">
+                            <a class="projects__box-link" href="#">
+                                <picture>
+                                    <source
+                                        srcset="./resources/project2_tablet.png"
+                                        media="(max-width: 1199px)"
+                                    />
+                                    <source
+                                        srcset="./resources/project2_mobile.png"
+                                        media="(max-width: 767px)"
+                                    />
+                                    <img
+                                        class="projects__box-image"
+                                        src="./resources/project2_desktop.png"
+                                        alt="#"
+                                    />
+                                </picture>
+                                <p class="projects__box-title">Nothing</p>
+                                <p class="projects__box-text">
+                                    верстка, настройка
+                                </p>
+                                <p class="projects__box-description">
+                                    презентация продукта
+                                </p>
+                            </a>
+                        </div>
+
+                        <div class="projects__box">
+                            <a href="#" class="projects__box-link">
+                                <picture>
+                                    <source
+                                        media="(max-width: 1199px)"
+                                        srcset="./resources/project3_tablet.png"
+                                    />
+                                    <source
+                                        media="(max-width: 767px)"
+                                        srcset="./resources/project3_mobile.png"
+                                    />
+                                    <img
+                                        class="projects__box-image"
+                                        src="./resources/project3_desktop.png"
+                                        alt="#"
+                                    />
+                                </picture>
+                                <p class="projects__box-title">TOPTRIP</p>
+                                <p class="projects__box-text">верстка</p>
+                                <p class="projects__box-description">
+                                    заказ путешествий
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="projects__btn">Смотреть все проекты</button>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

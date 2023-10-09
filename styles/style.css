@@ -1,0 +1,51 @@
+@import url(../styles/projects.css);
+
+/*
+цвет щрифта, заднего фона, наведения - зедёный color: #1BFF07;
+
+медиа запросы:
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 767px) {}
+*/
+
+
+* {
+    letter-spacing: 0.66px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    font-family: 'IBM Plex Mono', 'Manrope', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    background-color: #000;
+}
+
+section {
+    padding-bottom: 150px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 100%;
+        padding: 0px 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0px 12px;
+    }
+}
